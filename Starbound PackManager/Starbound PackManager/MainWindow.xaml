@@ -5,14 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Starbound_PackManager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <Rectangle DragDrop.Drop="Rectangle_Drop" Fill="#FFF4F4F5" AllowDrop="True" HorizontalAlignment="Left" Height="194" Margin="10,112,0,0" Stroke="Black" VerticalAlignment="Top" Width="498"/>
-        <Label x:Name="DropBoxLabel" Content="Drop File Here" HorizontalAlignment="Left" Margin="204,178,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.12,0.117"/>
-        <TextBox x:Name="OutputPath" HorizontalAlignment="Left" Height="23" Margin="10,84,0,0" TextWrapping="Wrap" Text="Destination" VerticalAlignment="Top" Width="498"/>
-        <TextBox x:Name="InputPath" HorizontalAlignment="Left" Height="23" Margin="10,31,0,0" TextWrapping="Wrap" Text="Source" VerticalAlignment="Top" Width="498"/>
-        <TextBlock x:Name="OutputLabel" HorizontalAlignment="Left" Margin="10,64,0,0" TextWrapping="Wrap" Text="Destination" VerticalAlignment="Top"/>
-        <TextBlock x:Name="InputLabel" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Source" VerticalAlignment="Top"/>
-
+        Title="MainWindow" Height="384.758" Width="638.972">
+    <Grid Margin="0,0,0.8,-1.8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="86*"/>
+            <ColumnDefinition Width="87*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="OutputPath" HorizontalAlignment="Left" Height="46" Margin="10,102,0,0" TextWrapping="Wrap" Text="Destination" VerticalAlignment="Top" Width="498" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="InputPath" HorizontalAlignment="Left" Height="46" Margin="10,31,0,0" TextWrapping="Wrap" Text="Source" VerticalAlignment="Top" Width="498" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="OutputLabel" HorizontalAlignment="Left" Margin="10,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="294"><Run Text="Destination"/><Run Text=":"/></TextBlock>
+        <TextBlock x:Name="InputLabel" HorizontalAlignment="Left" Margin="10,15,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="304"><Run Text="Source"/><Run Text=":"/></TextBlock>
+        
+        <Button x:Name="Unpack" Content="Unpack" Click="Unpack_Click" HorizontalAlignment="Left" Margin="27,174,0,0" VerticalAlignment="Top" Width="127" Height="39"/>
+        <ListBox x:Name="Rectangle" DragDrop.Drop="Rectangle_Drop" DragDrop.DragEnter="Rectangle_DragEnter" DragDrop.DragLeave="Rectangle_DragLeave" AllowDrop="True" Background="LightGray"  BorderBrush="Black" HorizontalAlignment="Left" Height="173" Margin="244,174,0,0" VerticalAlignment="Top" Width="378" Grid.ColumnSpan="2"/>
+        <Label x:Name="DropBoxLabel" IsManipulationEnabled="False"  Content="Drop File Here" DragDrop.Drop="Rectangle_Drop" DragDrop.DragEnter="Rectangle_DragEnter" DragDrop.DragLeave="Rectangle_DragLeave" HorizontalAlignment="Left" Margin="72.6,252,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.12,0.117" Height="25" Width="86" Grid.Column="1"/>
     </Grid>
 </Window>

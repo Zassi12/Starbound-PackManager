@@ -13,3 +13,14 @@ c:\users\zassi\documents\visual studio 2015\Projects\Starbound PackManager\Starb
 c:\users\zassi\documents\visual studio 2015\Projects\Starbound PackManager\Starbound PackManager\obj\Debug\Starbound PackManager.pdb
 C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\obj\Debug\Starbound PackManager.exe
 C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\obj\Debug\Starbound PackManager.pdb
+C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\bin\Debug\Starbound PackManager.exe
+C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\bin\Debug\Starbound PackManager.pdb
+C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\obj\Debug\Starbound PackManager.csprojResolveAssemblyReference.cache
+C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\obj\Debug\MainWindow.g.cs
+C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\obj\Debug\App.g.cs
+C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\obj\Debug\Starbound PackManager_MarkupCompile.cache
+C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\obj\Debug\Starbound PackManager_MarkupCompile.lref
+C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\obj\Debug\MainWindow.baml
+C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\obj\Debug\Starbound PackManager.g.resources
+C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\obj\Debug\Starbound_PackManager.Properties.Resources.resources
+C:\Users\Zassi\Source\Repos\Starbound-PackManager\Starbound PackManager\Starbound PackManager\obj\Debug\Starbound PackManager.csproj.GenerateResource.Cache
