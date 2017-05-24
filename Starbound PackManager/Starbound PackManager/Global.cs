@@ -13,5 +13,6 @@ namespace Starbound_PackManager
         public string FileSource = @"";
         public string FileDestinaton = @"";
         public string TempPath = @"";
+        
     }
 }
